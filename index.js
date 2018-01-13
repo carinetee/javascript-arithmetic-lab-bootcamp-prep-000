@@ -31,3 +31,11 @@ function makeInt(n) {
     return parseInt(n, 10);
   }
 }
+
+function preserveDecimal(n) {
+  if (parseFloat(n) === NaN) {
+    return appropriate;
+  } else {
+    return parseFloat(n);
+  }
+}
